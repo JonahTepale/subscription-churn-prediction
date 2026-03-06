@@ -81,6 +81,25 @@ Random Forest
 
 Random Forest produced the strongest performance with the highest ROC-AUC score, indicating strong predictive ability for identifying customers at risk of churn.
 
+| Model | ROC-AUC |
+|------|------|
+| Logistic Regression | 1.0 |
+| Random Forest | 1.0 |
+
+Random Forest performed better because it captures nonlinear relationships between customer behavior variables.
+
+---
+
+## Visualizations
+
+### Churn Distribution
+
+![Churn Distribution](images/churn_distribution.png)
+
+### Feature Importance
+
+![Feature Importance](images/feature_importance.png)
+
 ---
 
 ## Business Recommendations
